@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import me from "../pictures/me.JPG";
+import mypic from "../pictures/mypic.png";
 
 export const About = () => {
 	window.addEventListener("scroll", function () {
@@ -12,7 +12,7 @@ export const About = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col__2">
-						<img src={me} alt="" className="about__img" />
+						<img src={mypic} alt="" className="about__img" />
 					</div>
 					<div className="col__2">
 						<h1 className="about__heading">About Me</h1>

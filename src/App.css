@@ -12,7 +12,7 @@ body {
 }
 a {
 	text-decoration: none;
-	color: #cae6ee;
+	color: #f03060;
 }
 
 h1,
@@ -23,7 +23,7 @@ h5,
 h6,
 span {
 	font-size: 18px;
-	color: rgb(211, 235, 241);
+	color: rgb(255, 255, 255);
 	font-family: Poppins, sans-serif;
 }
 li {
@@ -37,7 +37,7 @@ p {
 	font-family: Poppins, sans-serif;
 }
 .white {
-	color: #fff !important;
+	color: rgba(255, 78, 101, 0.932) !important;
 }
 .black {
 	color: #000 !important;
@@ -71,7 +71,7 @@ p {
 	padding: 10px 0px;
 }
 .sweet {
-	color: #26cbfd;
+	color: #ff3198;
 }
 .row {
 	display: flex;
