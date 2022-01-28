@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import logo2 from "../pictures/logo2.png";
+import home from "../pictures/home.jpg";
 
 function Home() {
 	window.addEventListener("scroll", function () {
@@ -9,7 +10,7 @@ function Home() {
 	});
 
 	return (
-		<div className="home" id="Home">
+		<div className="home" id="Home" style={{ backgroundImage: `url(${home})` }}>
 			<div className="home__bg">
 				<div className="header d__flex align__center pxy__30">
 					<div className="logo">

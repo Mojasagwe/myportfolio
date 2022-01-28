@@ -9,10 +9,14 @@ import dbms from "../pictures/dbms.jpg";
 import webdev from "../pictures/Webdev.jpg";
 import github from "../pictures/github.jpg";
 import clcumpting from "../pictures/clcumpting.png";
+import apple from "../pictures/apple.jpg";
 
 function Skills() {
 	return (
-		<div className="project component__space" id="Skills">
+		<div
+			className="project component__space"
+			id="Skills"
+			style={{ backgroundImage: `url(${apple})` }}>
 			<div className="heading">
 				<h1 className="heading">My Developer Skills</h1>
 				<p className="heading p__color">
