@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import mypic from "../pictures/mypic.png";
+import mypic from "./pictures/mypic.png";
 
 export const About = () => {
 	window.addEventListener("scroll", function () {
@@ -17,6 +17,10 @@ export const About = () => {
 					<div className="col__2">
 						<h1 className="about__heading">About Me</h1>
 						<div className="about__meta">
+							<h3>
+								Note: This profile is still in development phase and should not
+								be viewed as the final product
+							</h3>
 							<p className="about__text p__color">
 								I am a qualified software developer, and a certified java
 								programmer completed my diploma in software development in 2021
