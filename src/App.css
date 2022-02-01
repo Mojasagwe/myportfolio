@@ -37,7 +37,7 @@ p {
 	font-family: Poppins, sans-serif;
 }
 .white {
-	color: rgba(255, 78, 101, 0.932) !important;
+	color: rgba(253, 249, 249, 0.932) !important;
 }
 .black {
 	color: #000 !important;
@@ -71,7 +71,7 @@ p {
 	padding: 10px 0px;
 }
 .sweet {
-	color: #ff3198;
+	color: #7fb1fd;
 }
 .row {
 	display: flex;
@@ -112,7 +112,7 @@ svg {
 	position: absolute;
 }
 strong {
-	color: #f9004d;
+	color: #fa3969;
 	font-weight: 600;
 }
 input {
@@ -140,8 +140,8 @@ button.btn {
 	margin-bottom: 15px;
 }
 button.about.btn.pointer:hover {
-	background: #fff;
-	color: #000 !important;
+	background: rgb(243, 237, 237);
+	color: rgb(245, 29, 29) !important;
 }
 /* RESPONSIVE */
 @media only screen and (max-width: 768px) {

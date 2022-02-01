@@ -20,10 +20,12 @@ function Skills() {
 			<div className="heading">
 				<h1 className="heading">My Developer Skills</h1>
 				<p className="heading p__color">
-					These are a few of the many skills I have managed to learn a become
-					proficient with
+					These are a few of the many skills I have in my repertoire.
 				</p>
-				<p className="heading p__color">And these are the top 3 skills</p>
+				<p className="heading p__color">
+					“Programming is a skill best acquired by practice and example rather
+					than from books.” -Alan Turing
+				</p>
 			</div>
 			<div className="container">
 				<div className="row">
