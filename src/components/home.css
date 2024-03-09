@@ -5,8 +5,8 @@
 	background-size: cover;
 }
 li.nav__items {
-	font-size: 18px;
-	padding-bottom: 15px;
+	font-size: 20px;
+	padding-bottom: 6px;
 }
 .home__content {
 	padding: 120px 0px;
@@ -15,19 +15,20 @@ h1.home__text {
 	font-size: 22px;
 	font-weight: 400;
 	letter-spacing: 3px;
-	color: rgba(198, 201, 216, 75) !important;
+	color: whitesmoke !important;
 }
 h2.home__text {
-	font-size: 54px;
+	font-size: 40px;
 	line-height: 78px;
 	font-weight: 800;
 	font-family: Montserrat, sans-serif;
 }
 h3.home__text {
-	font-size: 50px;
+	font-size: 54px;
 	font-weight: 800;
 	font-family: Montserrat, sans-serif;
 	line-height: 50px;
+	color: rgb(247, 70, 70);
 }
 h4.home__text {
 	font-size: 50px;
@@ -43,5 +44,5 @@ h4.home__text {
 	z-index: 1000;
 	width: 100%;
 	padding: 0px 30px;
-	background-color: #191919;
+	background-color: #4e4b4b;
 }

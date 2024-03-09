@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import mypic from "../pictures/mypic.png";
+import mypic from "../pictures/myPicture.jpg";
 
 export const About = () => {
 	window.addEventListener("scroll", function () {
@@ -25,25 +25,22 @@ export const About = () => {
 								</strong>
 							</h3>
 							<p className="about__text p__color">
-								I am a qualified software developer, and a certified java
-								programmer completed my diploma in software development in 2021
-								March, and ever since then I have put it upon myself to grow and
-								become the best developer I could ever imagine, and use these
-								skills to solve some of the most unique problems.
+							Qualified Software Engineer and certified Java SE 8 programmer
+							with a strong foundation in SDLC, expertise in web services and
+							API development.
 							</p>
 							<p className="about__text p__color">
-								On a daily basis, I keep busy working and writing code to grow
-								my technical skills and to create an outstanding portfolio I am
-								interested in both the backend and frontend of development
+							Currently working as a Salesforce developer
+							and integration specialist. I am effective in cross-functional
+							teams and as an individual contributor.
 							</p>
 							<p className="about__text p__color">
-								I would like to thank you for taking the time to look through my
-								portfolio you can also have a look through my GitHub profile or
-								LinkedIn
+							Known for quickly learning any programming language and ready to excel in
+							technical and code-related positions.
 							</p>
 
 							<div className="about__button d__flex align__items__center">
-								<button className="about btn pointer ">Download CV</button>
+								<button className="about btn pointer ">Resumé</button>
 
 								<a href="https://github.com/Mojasagwe">
 									<button className="about btn pointer ">GitHub</button>

@@ -42,7 +42,7 @@ function Home() {
 						<div className="home__meta">
 							<h1 className="home__text pz__10">Hi, welcome to my portfolio</h1>
 							<h2 className="home__text pz__10">I'm Thato Mmadi</h2>
-							<h3 className="home__text sweet pz__10">A software Developer</h3>
+							<h3 className="home__text sweet pz__10">A software Engineer</h3>
 							<h4 className="home__text pz__10">From Gauteng</h4>
 						</div>
 					</div>

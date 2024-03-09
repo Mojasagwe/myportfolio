@@ -1,14 +1,17 @@
 import React from "react";
 import "./skills.css";
 import react2 from "../pictures/react2.jpeg";
-import java from "../pictures/java.jpg";
-import cplus from "../pictures/cplus.jpg";
-import csharp from "../pictures/csharp.jpg";
+import java from "../pictures/JavaLogo.png";
+import Salesforces from "../pictures/Salesforces.png";
+import APIintegration from "../pictures/APIintegration.png";
 import sql from "../pictures/sql.png";
-import dbms from "../pictures/dbms.jpg";
+import dbms from "../pictures/lwc.png";
 import webdev from "../pictures/Webdev.jpg";
+import apex from "../pictures/apexs.png";
 import github from "../pictures/github.jpg";
-import clcumpting from "../pictures/clcumpting.png";
+import restapi from "../pictures/realrest.png";
+import clcumpting from "../pictures/soql.png";
+import fullstack from "../pictures/fullstack.png";
 import apple from "../pictures/apple.jpg";
 
 function Skills() {
@@ -29,11 +32,24 @@ function Skills() {
 			</div>
 			<div className="container">
 				<div className="row">
+
+				<div className="col__3">
+						<div className="project__box pointer relative">
+							<div className="project__box__img pointer relative">
+								<div className="project__img__box">
+									<img src={Salesforces} alt="" className="project__img" />
+								</div>
+								<div className="mask__effect"></div>
+							</div>
+						</div>
+					</div>
+
+
 					<div className="col__3">
 						<div className="project__box pointer relative">
 							<div className="project__box__img pointer relative">
 								<div className="project__img__box">
-									<img src={csharp} alt="" className="project__img" />
+									<img src={APIintegration} alt="" className="project__img" />
 								</div>
 								<div className="mask__effect"></div>
 							</div>
@@ -55,12 +71,13 @@ function Skills() {
 						<div className="project__box pointer relative">
 							<div className="project__box__img pointer relative">
 								<div className="project__img__box">
-									<img src={cplus} alt="" className="project__img" />
+									<img src={apex} alt="" className="project__img" />
 								</div>
 								<div className="mask__effect"></div>
 							</div>
 						</div>
 					</div>
+					
 
 					<div className="col__3">
 						<div className="project__box pointer relative">
@@ -99,6 +116,17 @@ function Skills() {
 						<div className="project__box pointer relative">
 							<div className="project__box__img pointer relative">
 								<div className="project__img__box">
+									<img src={restapi} alt="" className="project__img" />
+								</div>
+								<div className="mask__effect"></div>
+							</div>
+						</div>
+					</div>
+
+					<div className="col__3">
+						<div className="project__box pointer relative">
+							<div className="project__box__img pointer relative">
+								<div className="project__img__box">
 									<img src={webdev} alt="" className="project__img" />
 								</div>
 								<div className="mask__effect"></div>
@@ -116,6 +144,18 @@ function Skills() {
 							</div>
 						</div>
 					</div>
+
+					<div className="col__3">
+						<div className="project__box pointer relative">
+							<div className="project__box__img pointer relative">
+								<div className="project__img__box">
+									<img src={fullstack} alt="" className="project__img" />
+								</div>
+								<div className="mask__effect"></div>
+							</div>
+						</div>
+					</div>
+
 
 					<div className="col__3">
 						<div className="project__box pointer relative">
