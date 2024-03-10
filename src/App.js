@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import { SoftSkills } from "./components/SoftSkills";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import Certificates from "./components/Certificates";
 import Footer from "./components/Footer";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 			<About />
 			<SoftSkills />
 			<Skills />
+			<Certificates/>
 			<Contact />
 			<Footer />
 		</div>

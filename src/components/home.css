@@ -6,8 +6,19 @@
 }
 li.nav__items {
 	font-size: 20px;
-	padding-bottom: 6px;
+	padding-bottom: 100px;
+	color: rgb(252, 252, 252);
+	position: relative;
+	transition: font-size 0.3s ease;
+
 }
+
+li.nav__items:hover{
+
+	font-size: 24px;
+
+}
+  
 .home__content {
 	padding: 120px 0px;
 }
@@ -38,11 +49,4 @@ h4.home__text {
 }
 .header {
 	transition: 0.4s all ease;
-}
-.header.active {
-	position: fixed;
-	z-index: 1000;
-	width: 100%;
-	padding: 0px 30px;
-	background-color: #4e4b4b;
 }
